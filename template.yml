@@ -3,13 +3,10 @@ AWSTemplateFormatVersion: '2010-09-09'
 Parameters:
   HostedZoneName:
     Type: String
-    Default: dev-resas.com
   OriginHostName:
     Type: String
-    Default: it.dev-resas.com
   RedirectHostName:
     Type: String
-    Default: stage.dev-resas.com
 
 Resources:
   s3Bucket:
